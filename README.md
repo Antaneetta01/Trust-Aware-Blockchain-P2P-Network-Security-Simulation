@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-green)
 ![Security](https://img.shields.io/badge/Focus-Network%20Security-red)
 
-## Overview
+## 📌 Overview
 
 **TrustAware Blockchain P2P Network** is a Python-based simulation project that demonstrates how trust-aware mechanisms can be used to detect malicious behavior in blockchain-inspired peer-to-peer systems.
 
@@ -16,7 +16,7 @@ This simulation serves as a foundation for studying trust-aware defense strategi
 
 ---
 
-## Highlights
+## 🎯 Highlights
 
 - Detects Sybil, collusion, and eclipse attacks
 - Achieves strong detection accuracy with zero false positives under the evaluated simulation scenarios
@@ -33,7 +33,7 @@ Common network-layer attacks such as Sybil attacks, collusion attacks, and eclip
 
 ---
 
-## Key Features
+## ⚙️ Key Features
 
 - Simulates a blockchain-inspired peer-to-peer network
 - Implements basic transaction and block structures using `Transaction` and `Block` classes
@@ -49,7 +49,7 @@ Common network-layer attacks such as Sybil attacks, collusion attacks, and eclip
 
 ---
 
-## Attack Models
+## 🚨 Attack Models
 
 ### 1. Sybil Attack
 
@@ -71,7 +71,7 @@ In this project, Node `0` is selected as the eclipse attack target. Its peers ar
 
 ---
 
-## Blockchain Components
+## 🔗 Blockchain Components
 
 The blockchain layer of this project is implemented in `blockchain.py`. It provides simplified `Transaction` and `Block` classes that support the simulation of transaction creation and block generation.
 
@@ -107,7 +107,7 @@ In this project, the blockchain component is intentionally simplified. The focus
 
 ---
 
-## Trust Model
+## 🔍 Trust Model
 
 Each node maintains three trust values:
 
@@ -141,7 +141,7 @@ To ensure reproducibility of results, a fixed random seed (`random.seed(42)`) is
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 TrustAware-Blockchain-P2P-Network/
@@ -163,7 +163,7 @@ TrustAware-Blockchain-P2P-Network/
 
 ---
 
-## Requirements
+## ✅ Requirements
 
 This project requires Python 3 and Matplotlib.
 
@@ -175,7 +175,7 @@ pip install matplotlib
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 Clone the repository:
 
@@ -205,7 +205,7 @@ The simulation is deterministic due to the use of a fixed random seed, ensuring 
 
 ---
 
-## Sample Output
+## 🔍 Sample Output
 
 ```text
 [SYBIL ATTACK]
@@ -245,7 +245,7 @@ False Positives: 0
 
 ---
 
-## Simulation Output
+## 🖥️ Simulation Output
 
 ### Terminal Output
 
@@ -255,7 +255,7 @@ The following screenshot shows the terminal execution of the simulation, includi
 
 ---
 
-## Result Interpretation
+## 📈 Result Interpretation
 
 The simulation demonstrates that malicious nodes are effectively detected through trust degradation.
 
@@ -278,7 +278,7 @@ Node `0`, which is the eclipse attack target, temporarily drops into the suspici
 
 ---
 
-## Trust Evolution Graph
+## 📊 Trust Evolution Graph
 
 The following graph shows how trust values change over time for honest and malicious nodes under Sybil, collusion, and eclipse attacks.
 
@@ -294,7 +294,7 @@ Key observations:
 
 ---
 
-## Research Relevance
+## 🎓 Research Relevance
 
 This project is relevant to research areas such as:
 
@@ -312,7 +312,7 @@ The simulation provides a simple but practical foundation for studying how decen
 
 ---
 
-## Limitations
+## ⚠️ Limitations
 
 This project is a simulation and does not represent a full production blockchain system.
 
@@ -329,7 +329,7 @@ Current limitations include:
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 Possible future improvements include:
 
@@ -346,7 +346,7 @@ Possible future improvements include:
 
 ---
 
-## Technologies Used
+## 🧠 Technologies Used
 
 - Python
 - Matplotlib
@@ -357,7 +357,7 @@ Possible future improvements include:
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Antaneetta Libina Mendez**
 
@@ -372,7 +372,7 @@ Cybersecurity researcher with interests in:
 
 ---
 
-## License
+## 📜 License
 
 This project is released for academic and educational purposes.
 
@@ -380,6 +380,6 @@ You may modify and extend it for research, learning, or demonstration purposes.
 
 ---
 
-## Disclaimer
+## ⭐ Disclaimer
 
 This project is a simplified academic simulation. It is intended for learning and research demonstration only and should not be used as a production security system without significant improvement, validation, and testing.
