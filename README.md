@@ -180,7 +180,7 @@ pip install matplotlib
 Clone the repository:
 
 ```bash
-git clone https://github.com/Antaneetta01/TrustAware-Blockchain-P2P-Network.git
+git clone https://github.com/Antaneetta01/Trust-Aware-Blockchain-P2P-Network-Security-Simulation.git
 ```
 
 Go to the project directory:
