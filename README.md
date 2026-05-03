@@ -186,7 +186,7 @@ git clone https://github.com/Antaneetta01/Trust-Aware-Blockchain-P2P-Network-Sec
 Go to the project directory:
 
 ```bash
-cd TrustAware-Blockchain-P2P-Network
+cd Trust-Aware-Blockchain-P2P-Network-Security-Simulation
 ```
 
 Run the simulation:
