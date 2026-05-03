@@ -25,7 +25,7 @@ This simulation serves as a foundation for studying trust-aware defense strategi
 
 ---
 
-## Project Motivation
+## 💡 Project Motivation
 
 Blockchain and Web3 systems rely heavily on peer-to-peer communication. Since there is no central authority controlling the network, malicious peers can attempt to disrupt communication, manipulate reputation, isolate honest nodes, or influence consensus behavior.
 
@@ -51,19 +51,19 @@ Common network-layer attacks such as Sybil attacks, collusion attacks, and eclip
 
 ## 🚨 Attack Models
 
-### 1. Sybil Attack
+### ⚠️ 1. Sybil Attack
 
 In a Sybil attack, an attacker creates multiple fake identities in the network. These fake nodes may attempt to influence trust, disrupt communication, or manipulate peer behavior.
 
 In this project, Sybil nodes are added to the network and marked as malicious. Their trust values decrease over time as their malicious behavior is detected.
 
-### 2. Collusion Attack
+### ⚠️ 2. Collusion Attack
 
 In a collusion attack, one or more malicious nodes work together to influence the network. Colluding nodes may attempt to support each other or disrupt honest nodes.
 
 In this simulation, selected nodes are marked as malicious colluding nodes. Their behavior is evaluated through trust scoring.
 
-### 3. Eclipse Attack
+### ⚠️ 3. Eclipse Attack
 
 In an eclipse attack, an honest node is surrounded or isolated by malicious peers. The attacker controls the victim node’s peer connections and can influence the information it receives.
 
@@ -75,7 +75,7 @@ In this project, Node `0` is selected as the eclipse attack target. Its peers ar
 
 The blockchain layer of this project is implemented in `blockchain.py`. It provides simplified `Transaction` and `Block` classes that support the simulation of transaction creation and block generation.
 
-### Transaction Class
+### 🔁 Transaction Class
 
 The `Transaction` class represents a basic blockchain transaction. Each transaction stores the sender identity, timestamp, and a unique transaction ID.
 
@@ -89,7 +89,7 @@ self.tx_id = hashlib.sha256(
 
 This ensures that each transaction receives a unique identifier during the simulation.
 
-### Block Class
+### 🧱 Block Class
 
 The `Block` class represents a simplified blockchain block. Each block contains a list of transactions, the hash of the previous block, a timestamp, a nonce, and its own block hash.
 
@@ -111,15 +111,15 @@ In this project, the blockchain component is intentionally simplified. The focus
 
 Each node maintains three trust values:
 
-### Local Trust
+### 🤝 Local Trust
 
 Local trust is based on direct interactions with other nodes. If a node sends valid transactions or blocks, its trust increases. If it sends invalid or malicious data, its trust decreases.
 
-### Global Trust
+### 🌐 Global Trust
 
 Global trust is calculated using gossip-based reputation values shared by trusted peers.
 
-### Final Trust
+### ✅ Final Trust
 
 Final trust is calculated using a weighted combination of local and global trust.
 
@@ -245,9 +245,9 @@ False Positives: 0
 
 ---
 
-## 🖥️ Simulation Output
+## 🧪 Simulation Output
 
-### Terminal Output
+### 🖥️ Terminal Output
 
 The following screenshot shows the terminal execution of the simulation, including attack stages, node trust updates, and final evaluation metrics.
 
@@ -261,7 +261,7 @@ The simulation demonstrates that malicious nodes are effectively detected throug
 
 These results indicate that the proposed trust model is not only effective in detecting malicious nodes but also robust against transient trust degradation caused by adversarial network conditions.
 
-### Final Result
+### 🎯 Final Result
 
 | Metric | Value |
 |---|---:|
