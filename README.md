@@ -1,4 +1,4 @@
-# TrustAware Blockchain P2P Network Security Simulation
+# Trust-Aware Blockchain P2P Network Security Simulation
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-green)
@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-**TrustAware Blockchain P2P Network** is a Python-based simulation project that demonstrates how trust-aware mechanisms can be used to detect malicious behavior in blockchain-inspired peer-to-peer systems.
+**Trust-Aware Blockchain P2P Network** is a Python-based simulation project that demonstrates how trust-aware mechanisms can be used to detect malicious behavior in blockchain-inspired peer-to-peer systems.
 
 The project addresses network-layer security challenges in decentralized environments, particularly attacks targeting peer communication such as Sybil, collusion, and eclipse attacks. It models a blockchain-inspired peer-to-peer network at the networking layer—rather than full consensus implementation—where nodes exchange transactions, blocks, and gossip-based trust values.
 
